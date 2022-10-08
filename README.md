@@ -13,7 +13,7 @@ Developers using this project should already have Python3, and pip installed on 
 2. PIP Dependencies - Once you have your virtual environment setup and running, install dependencies by navigating to the project directory and running:
 
     -`pip install requirments.txt`
-**Key Dependencies**.
+- **Key Dependencies**.
 
  **1. Flask** is a lightweight backend microservices framework. Flask is required to handle requests and responses.
 
