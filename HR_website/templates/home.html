@@ -1,0 +1,40 @@
+
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+ {% block content %}
+    <h1 align="center">{{ user.first_name}}</h1>
+    <form method="POST">
+      <!-- <textarea name="attendence" id="attendence" class="form-control"></textarea> -->
+      <br />
+      <div align="right">
+        <button type="submit" class="btn btn-primary" name="submit_button" value="checkin">Check-In</button>
+        <button type="submit" class="btn btn-primary" name="submit_button" value="checkout">Check-out</button>
+
+      </div>
+    </form>
+    <ul class="list-group list-group-flush" id="attendence">
+      
+      <table style="width:100%" >
+        <tr>
+          <th>Day</th>
+          <th>Date</th>
+          <th>Check-in</th>
+          <th>Check-out</th>
+        </tr>
+        {% for attendence in user.attendence %}
+        <tr>
+          <td> {{ attendence.date.strftime("%A")}}</td>
+          <td>{{ attendence.date }}</td>
+          <td>{{ attendence.checkin_date.strftime("%X") }}  </td>
+          <td>{{attendence.ischeckedin}}</td>
+          <!-- <td>{{attendence.checkout_date.strftime("%X")}} </td> -->
+    
+        </tr>
+        {% endfor %}
+      </table>
+      
+    </ul> 
+    
+  {% endblock %}
+      
+     
+ 
