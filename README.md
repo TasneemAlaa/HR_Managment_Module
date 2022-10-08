@@ -1,9 +1,9 @@
 # HR_Managment_Module
 ## Record Attendence 
-*This application supposed to track the attendence of the employees which allows them to check-in and check-out *
+This application supposed to track the attendence of the employees which allows them to check-in and check-out 
 
 ## Getting Started
-*Fork the project repository and Clone your forked repository to your machine.
+Fork the project repository and Clone your forked repository to your machine.
 
 Developers using this project should already have Python3, and pip installed on their local machines.*
 
