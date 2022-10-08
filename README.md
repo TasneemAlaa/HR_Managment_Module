@@ -31,4 +31,5 @@ Those can be find in *models.py
 
 
 ## Running The App
+To run the code
 `python main.py`
