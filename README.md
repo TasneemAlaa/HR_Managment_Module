@@ -14,7 +14,9 @@ Developers using this project should already have Python3, and pip installed on 
 
     -pip install requirments.txt
 **Key Dependencies**.
+'''
  **1. Flask** is a lightweight backend microservices framework. Flask is required to handle requests and responses.
 
-   **2. SQLAlchemy** is the Python SQL toolkit and ORM used in this project to handle the Postgesql database.
+ **2. SQLAlchemy** is the Python SQL toolkit and ORM used in this project to handle the Postgesql database.
+'''
 
